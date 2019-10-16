@@ -1,13 +1,13 @@
 <?php
-     $n1 = $_GET["nota1"];
-     $n2 = $_GET["nota2"];
-     $n3 = $_GET["nota3"];
+     $n1 = @$_GET["nota1"];
+     $n2 = @$_GET["nota2"];
+     $n3 = @$_GET["nota3"];
   
      $media = ($n1 + $n2 + $n3)/3;
 ?>
 
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
 
         <meta charset="UTF-8">
